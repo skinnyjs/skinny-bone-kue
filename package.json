@@ -1,0 +1,17 @@
+{
+  "name": "skinny-bone-kue",
+  "version": "0.1.0",
+  "description": "Kue job processing",
+  "author": {
+    "name": "Geometria Lab"
+  },
+  "main": "./bone.js",
+  "dependencies": {
+    "bluebird": "~2.9.24",
+    "hiredis": "~0.3.0",
+    "kue": "~0.9.3"
+  },
+  "engines": [
+    "iojs >= 2.0"
+  ]
+}
