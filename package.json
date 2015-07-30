@@ -1,13 +1,13 @@
 {
   "name": "skinny-bone-kue",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Kue job processing",
   "author": {
     "name": "Geometria Lab"
   },
   "main": "./bone.js",
   "dependencies": {
-    "bluebird": "~2.9.24",
+    "bluebird": "^2.9.34",
     "kue": "~0.9.3"
   },
   "engines": [

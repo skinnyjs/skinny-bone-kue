@@ -1,7 +1,7 @@
 "use strict";
 
 const bluebird = require('bluebird');
-const kue = require('kue');
+const kue = require('./kue');
 
 module.exports = function attachKue(skinny, options) {
     skinny.on('*initialize', function *initializeKue() {

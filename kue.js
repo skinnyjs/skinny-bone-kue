@@ -1,3 +1,8 @@
 "use strict";
 
-module.exports = require('kue');
+const bluebird = require('bluebird');
+const kue = require('kue');
+
+bluebird.promisifyAll(kue.Job);
+
+module.exports = kue;
